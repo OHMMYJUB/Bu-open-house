@@ -63,39 +63,31 @@
 
         <div class="container mt-5">
             <div class="box">
-                <h1 class="mb-4">Contact Us</h1>
-                <p class="mb-2">
-                    <i class="fas fa-phone icon-spacing"></i><span>T:</span> 02 407 3888
-                </p>
-                <p class="mb-2">
-                    <i class="fas fa-fax icon-spacing"></i><span>F:</span> 02 407 3999
-                </p>
-                <p class="mb-2">
-                    <i class="fas fa-envelope icon-spacing"></i><span>General Enquires:</span> <a href="mailto:info@bu.ac.th">info@bu.ac.th</a>
-                </p>
-                <p class="mb-2">
-                    <i class="fas fa-envelope icon-spacing"></i><span>Admissions:</span> <a href="mailto:admission@bu.ac.th">admission@bu.ac.th</a>
-                </p>
-                <div class="social-icons-container">
-                    <a href="https://www.facebook.com/bangkokuniversity" target="_blank" class="social-icon">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://www.instagram.com/bangkok_bu/" target="_blank" class="social-icon">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/school/bangkokuniversity/" target="_blank" class="social-icon">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="https://www.youtube.com/@BangkokUniversity/videos" target="_blank" class="social-icon">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                    <a href="https://www.bu.ac.th/th" target="_blank" class="social-icon">
-                        <i class="fas fa-globe"></i>
-                    </a>
+                <h2>ติดต่อสอบถาม</h2>
+            <form>
+                <div class="form-group mt-3">
+                    <label for="name">ชื่อ-นามสกุล</label>
+                    <input type="text" class="form-control" id="name" placeholder="กรุณากรอกชื่อ-นามสกุล" required style="width: 500px;">
                 </div>
-                <a  href="ContactMsg.html" class="btn btn-primary mt-5">ติดต่อสอบถาม</a>
+                <div class="form-group mt-3">
+                    <label for="email">อีเมล</label>
+                    <input type="email" class="form-control" id="email" placeholder="กรุณากรอกอีเมล" required>
+                </div>
+                <div class="form-group mt-3">
+                    <label for="phone">เบอร์โทรศัพท์</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="กรุณากรอกเบอร์โทรศัพท์" required>
+                </div>
+                <div class="form-group mt-3">
+                    <label for="message">ข้อความที่ต้องการสอบถาม</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="กรุณากรอกข้อความ" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">ส่งข้อมูล</button>
+            </form>
+        </div>
+    </div>
             </div>
         </div><br>
+
         <section id="directions" class="ftco-section py-5" style="background-color: rgb(84, 81, 81); color: rgb(249, 246, 246);">
             <div class="container">
                 <div class="row justify-content-center mb-5">
@@ -142,6 +134,7 @@
                 </div>
             </div>
         </section>
+        
         
     </body>
 </html>
